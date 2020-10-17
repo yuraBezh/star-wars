@@ -19,7 +19,7 @@ const App = () => (
           <Header />
           <RandomPlanet />
           <Switch>
-            <Route exact path={ROUTES.ROOT} render={() => <h2>Welcome to StarDB</h2>} />
+            <Route exact path={ROUTES.ROOT} render={() => <h2>Welcome to Star Wars</h2>} />
             <Route path={ROUTES.PEOPLE} component={PeoplePage} />
             <Route path={ROUTES.PLANETS} component={PlanetsPage} />
             <Route exact path={ROUTES.STARSHIP} component={StarshipsPage} />

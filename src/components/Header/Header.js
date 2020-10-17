@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => (
   <nav className="header d-flex">
-    <h3><NavLink to="/">StarDB</NavLink></h3>
+    <h3><NavLink to="/">Star Wars</NavLink></h3>
     <ul className="d-flex">
       <li>
         <NavLink to="/people/" activeClassName="active">People</NavLink>
