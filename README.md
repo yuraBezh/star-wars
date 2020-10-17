@@ -12,3 +12,5 @@ It contains:
 7. Reselect
 8. PropTypes
 9. Linters
+
+To start app:  yarn start
